@@ -1156,7 +1156,7 @@
             [(UILabel *)progressSlider.rightLabelUI setText:[self formatTimeFromSeconds:arg2]];
         }
 
-        // **确保时间文本在最顶层**
+        // **确保时间文本在最7顶层**
         progressSlider.leftLabelUI.layer.zPosition = MAXFLOAT;
         progressSlider.rightLabelUI.layer.zPosition = MAXFLOAT;
 
